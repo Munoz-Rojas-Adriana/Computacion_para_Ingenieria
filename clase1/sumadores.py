@@ -1,7 +1,7 @@
 
 sum = 0
 
-list = (1 , 2 , 3)
+list =(1 , 2 , 3)
 
 for i in list:
     sum = sum + i
