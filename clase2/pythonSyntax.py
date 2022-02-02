@@ -69,10 +69,26 @@ else:
 # estructura de control While
 
 edad = 10
+
+# syntax
+"""
+while <<condicion>>:
+    <<codigo 1>>
+    <<codigo 2>>
+    <<codigo 3>>
+"""
+    
 while edad <= 17:
     print(f'Menor de edad!!! {edad}')
     edad = edad + 1 # ---> edad += 1
-    
+    print("edad!!!")
+    while edad <= 15:
+        print("edad 2")
+        edad+=2
+        while edad <= 16:
+            print("edad 3")
+            if edad > 12:
+                print("")
     print(f'Mayor de edad {edad}')
     
     
