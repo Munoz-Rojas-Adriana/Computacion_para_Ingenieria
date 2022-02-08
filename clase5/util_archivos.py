@@ -124,5 +124,9 @@ mensaje  =  cadena1  +   caracter_espacion  +  cadena2
 # hola mundo
 imprimir ( mensaje )
 
+#pregunta 5 ingeniero
+
+
+
  
  
