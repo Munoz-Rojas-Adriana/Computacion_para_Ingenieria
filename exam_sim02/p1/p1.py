@@ -15,8 +15,8 @@ for palabra in lista:
         
 print("%s se repite %s veces" % (palabra, diccionario))
 
-       
-        
+
+
         
         
         

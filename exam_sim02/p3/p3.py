@@ -5,12 +5,23 @@ Created on Tue Feb  8 07:22:08 2022
 @author: ACER
 """
 
-lista= "hola mundo, soy adri mundo!"
-listaSplit = lista.split()
-for word in listaSplit:
-     if word in tempLista:
-        tempList[word] += 1
-    
-     else:
-        tempLista[word]= 1
-print(tempLista)  
+def cuentaPalabras(texto):
+    palabras = texto.split(" ")
+    palabrasContadas ={}
+    contador  = 0
+    longitud = len(palabras)
+    for i in range(0, longitud):
+        primera = palabra[i]
+        print(primera)
+        for j in range(0, longitud):
+            segunda = palabra [j]
+            if primera == segunda:
+                contador += 1 #contador= contador +1
+        palabrasContadas[primera] = contador
+        contador  = 0
+    return palabrasContadas
+ 
+ texto = ("hola mundo como esta")        
+ cuentaPalabras = cuentaaPalabras(texto)
+ 
+                                        
