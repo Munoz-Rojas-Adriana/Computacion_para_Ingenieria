@@ -30,6 +30,8 @@ def esPalindromo(palabra):
         print("NO ES PALINDROMA")
         
         
+        
+        
 
     
     

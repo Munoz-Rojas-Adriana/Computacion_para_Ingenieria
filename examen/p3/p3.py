@@ -4,7 +4,7 @@ Created on Wed Feb  9 07:19:17 2022
 
 @author: ACER
 """
-
+"""
 archnotas = open('notas.txt', 'r')
 archestudiantes = open('estudiantes.txt', 'r')
 
@@ -29,7 +29,20 @@ for i in range(len(lista_notas)):
 archPrimer_Parcial.close()
 archnotas.close()
 archestudiantes.close()
+"""
+listaEstudiantes = open ('estudiantes.txt',' r')
+notas = open('notas.txt, r')
+primerParcial= open('primer_parcial.txt','wt')
+lista=listaEstudiantes.readlines()
+for linea in lista:
+    nota =notas.readline()
+    primerParcial.write(linea+' '+nota)
+    
+listaEstudiantes.close()
+notas.close()
+primerParcial.close()
 
+    
 
 
     
