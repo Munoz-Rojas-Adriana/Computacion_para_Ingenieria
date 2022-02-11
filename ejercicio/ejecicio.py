@@ -76,6 +76,7 @@ class Cuadrado(Figura):
   
 class Rectangulo(Figura):
     
+    
     def __init__(self, perimetro_, area_, base, altura, color):
         
         self.perimetro = perimetro_
